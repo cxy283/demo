@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*页面整体*/
+#wrap{
+    width: 100%;
+    font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+    font-size: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/*页面顶部*/
+#header{
+    width: 100%;
+    border-bottom: 2px solid #34B656;
+    height: 75px;
+}
+#header .headermain{
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    padding: 20px 0 15px;
+    border-bottom: 2px solid #34B656;
+}
+/*顶部右边登录注册*/
+#header .headermain .login{
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+}
+#header .headermain .login span{
+    padding: 0 10px;
+}
+#header .headermain .login a{
+    color: #000;
+}
+/*页面顶部主导航栏*/
+#nav{
+    width: 100%;
+    height: 45px;
+    box-shadow: 0 1px 2px #cccccc;
+}
+#nav .navmain{
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 1px 2px #cccccc;
+    height: 20px;
+    padding: 15px 0 10px;
+}
+/*主导航栏左侧*/
+#nav .navmain .menu{
+    float: left;
+}
+#nav .navmain .menu ul{
+    list-style: none;
+}
+#nav .navmain .menu ul li{
+    display: inline-block;
+}
+#nav .navmain .menu ul li a{
+    color: #000;
+    font-size: 14px;
+    padding: 0 20px;
+}
+/*页面主主体内容*/
+#content{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+/*内容第一部分*/
+#content .content01{
+    clear: both;
+    margin-top: 20px;
+    height: 375px;
+}
+/*左侧边栏*/
+#content .content01 .leftsiderbar{
+    float: left;
+}
+#content .content01 .leftsiderbar ul{
+    list-style: none;
+    border-top: 2px solid #34B656;
+}
+#content .content01 .leftsiderbar ul li a{
+    font-size: 13px;
+    color: #000;
+    padding: 5px 10px;
+    width: 190px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    border: 1px solid #ccc;
+}
+#content .content01 .leftsiderbar ul li a:hover{
+    border-right:none;
+    border-left: 2px solid #34B656;
+    color: #34B656;
+}
+/*中间轮播及广告*/
+#content .content01 .banner{
+    width: 560px;
+    float: left;
+    margin: 0 5px;
+    border: 1px solid #000;
+    height: 372px;
+}
+/*中间轮播图*/
+#content .content01 .banner .topbanner{
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+#content .content01 .banner .topbanner .img li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+#content .content01 .banner .topbanner .num{
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    font-size: 0;
+    text-align: center;
+    width: 100%;
+}
+#content .content01 .banner .topbanner .num li{
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#content .content01 .banner .topbanner .num .active{
+    background-color: #34B656;
+}
+#content .content01 .banner .topbanner .btn{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    cursor: pointer;
+    line-height: 40px;
+    display: none;
+}
+#content .content01 .banner .topbanner .left{
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+}
+#content .content01 .banner .topbanner .right{
+    right: 0;
+    top: 50%;
+    margin-top: -20px
+}
+#content .content01 .banner .topbanner:hover .btn{
+    display: block;
+}
